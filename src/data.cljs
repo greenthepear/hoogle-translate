@@ -182,10 +182,11 @@
 "Rust@join@vec@21" {:lang "Rust" :algo "join" :lib "vec" :id 21 :doc "https://doc.rust-lang.org/std/vec/struct.Vec.html#method.join" :sig "-" :expr false}
 "Go@Join@strings@21" {:lang "Go" :algo "Join" :lib "strings" :id 21 :doc "https://golang.org/pkg/strings/#Join" :sig "-" :expr false}
 "C#@join@String@21" {:lang "C#" :algo "join" :lib "String" :id 21 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.string.join?view=netframework-4.8" :sig "-" :expr false}
+"C++@join@Ranges@21" {:lang "C++" :algo "join" :lib "Ranges" :id 21 :doc "https://en.cppreference.com/w/cpp/ranges/join_view" :sig "-" :expr false}
 "F#@join@String@21" {:lang "F#" :algo "join" :lib "String" :id 21 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.string.join?view=netframework-4.8" :sig "-" :expr false}
 "Python@join*@str@21" {:lang "Python" :algo "join*" :lib "str" :id 21 :doc "https://docs.python.org/3/library/stdtypes.html#str.join" :sig "-" :expr false}
 "Kotlin@joinTo@collections@21" {:lang "Kotlin" :algo "joinTo" :lib "collections" :id 21 :doc "https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/join-to.html" :sig "-" :expr false}
-"Uiua@⊂ (join)@-@21" {:lang "Uiua" :algo "⊂ (join)" :lib "-" :id 21 :doc "https://www.uiua.org/docs/join" :sig "-" :expr false}
+"Uiua@♭ (deshape)@-@21" {:lang "Uiua" :algo "♭ (deshape)" :lib "-" :id 21 :doc "https://www.uiua.org/docs/deshape" :sig "-" :expr false}
 "Python@zip(*)@-@22" {:lang "Python" :algo "zip(*)" :lib "-" :id 22 :doc "https://docs.python.org/3/library/functions.html#zip" :sig "-" :expr false}
 "Python@transpose@pandas@22" {:lang "Python" :algo "transpose" :lib "pandas" :id 22 :doc "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.transpose.html" :sig "-" :expr false}
 "Ruby@transpose@Array@22" {:lang "Ruby" :algo "transpose" :lib "Array" :id 22 :doc "https://apidock.com/ruby/Array/transpose" :sig "-" :expr false}
@@ -274,13 +275,14 @@
 "Racket@append@base@42" {:lang "Racket" :algo "append" :lib "base" :id 42 :doc "https://docs.racket-lang.org/reference/pairs.html#%28def._%28%28quote._~23~25kernel%29._append%29%29" :sig "-" :expr false}
 "Python@append@list@42" {:lang "Python" :algo "append" :lib "list" :id 42 :doc "https://docs.python.org/3/tutorial/introduction.html#lists" :sig "-" :expr false}
 "Clojure@concat@List@42" {:lang "Clojure" :algo "concat" :lib "List" :id 42 :doc "https://clojuredocs.org/clojure.core/concat" :sig "-" :expr false}
-"C++@join@Ranges@42" {:lang "C++" :algo "join" :lib "Ranges" :id 42 :doc "https://en.cppreference.com/w/cpp/ranges" :sig "-" :expr false}
+"C++@concat@Ranges@42" {:lang "C++" :algo "concat" :lib "Ranges" :id 42 :doc "https://en.cppreference.com/w/cpp/ranges/concat_view" :sig "-" :expr false}
 "Swift@+@Array@42" {:lang "Swift" :algo "+" :lib "Array" :id 42 :doc "https://developer.apple.com/documentation/swift/array/2963457" :sig "-" :expr false}
 "Rust@chain@iter@42" {:lang "Rust" :algo "chain" :lib "iter" :id 42 :doc "https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.chain" :sig "-" :expr false}
 "Python@chain@itertools@42" {:lang "Python" :algo "chain" :lib "itertools" :id 42 :doc "https://docs.python.org/3/library/itertools.html#itertools.chain" :sig "-" :expr false}
 "Julia@vcat@Base@42" {:lang "Julia" :algo "vcat" :lib "Base" :id 42 :doc "https://docs.julialang.org/en/v1/base/arrays/#Base.vcat" :sig "-" :expr false}
 "Elixir@concat@Enum@42" {:lang "Elixir" :algo "concat" :lib "Enum" :id 42 :doc "https://hexdocs.pm/elixir/Enum.html#concat/2" :sig "-" :expr false}
 "Elixir@++@Kernel@42" {:lang "Elixir" :algo "++" :lib "Kernel" :id 42 :doc "https://hexdocs.pm/elixir/Kernel.html#++/2" :sig "-" :expr false}
+"Uiua@⊂ (join)@-@42" {:lang "Uiua" :algo "⊂ (join)" :lib "-" :id 42 :doc "https://www.uiua.org/docs/join" :sig "-" :expr false}
 "F#@allPairs@List@100" {:lang "F#" :algo "allPairs" :lib "List" :id 100 :doc "https://fsharp.github.io/fsharp-core-docs/reference/fsharp-collections-listmodule.html#allPairs" :sig "-" :expr false}
 "Julia@product@IterTools@100" {:lang "Julia" :algo "product" :lib "IterTools" :id 100 :doc "https://juliacollections.github.io/IterTools.jl/v0.2.1/#product(xs...)-1" :sig "-" :expr false}
 "APL@,∘.,@-@100" {:lang "APL" :algo ",∘.," :lib "-" :id 100 :doc "" :sig "-" :expr true}
