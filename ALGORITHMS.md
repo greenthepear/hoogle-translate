@@ -581,3 +581,13 @@
 |      k      |         `& (where)`          |   18   |           `-`           |       |                                                      [doc](https://ngn.codeberg.page/k/#)                                                      |
 |      k      |          `_ (drop)`          |   34   |           `-`           |       |                                                      [doc](https://ngn.codeberg.page/k/#)                                                      |
 |      k      |          `# (take)`          |   35   |           `-`           |       |                                                      [doc](https://ngn.codeberg.page/k/#)                                                      |
+|     C++     |            `take`            |   35   |       `<ranges>`        |       |                                           [doc](https://en.cppreference.com/w/cpp/ranges/take_view)                                            |
+|     C++     |            `drop`            |   34   |       `<ranges>`        |       |                                           [doc](https://en.cppreference.com/w/cpp/ranges/drop_view)                                            |
+|    Rust     |            `take`            |   35   |         `iter`          |       |                                   [doc](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.take)                                    |
+|    Rust     |            `skip`            |   34   |         `iter`          |       |                                   [doc](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.skip)                                    |
+|   Haskell   |            `take`            |   35   |        `Prelude`        |       |                               [doc](https://hackage.haskell.org/package/base-4.21.0.0/docs/Prelude.html#v:take)                                |
+|   Haskell   |            `drop`            |   34   |        `Prelude`        |       |                               [doc](https://hackage.haskell.org/package/base-4.21.0.0/docs/Prelude.html#v:drop)                                |
+|    Scala    |            `take`            |   35   |        `various`        |       |                              [doc](https://scala-lang.org/api/current/scala/collection/IterableOps.html#take-aba)                              |
+|    Scala    |            `drop`            |   34   |        `various`        |       |                              [doc](https://scala-lang.org/api/current/scala/collection/IterableOps.html#drop-aba)                              |
+|    Pharo    |           `first:`           |   35   |      `Collection`       |       |
+|    Pharo    |        `allButFirst:`        |   34   |      `Collection`       |       |
