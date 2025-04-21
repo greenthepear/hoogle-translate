@@ -579,4 +579,8 @@
 "Common Lisp@butLast@-@33" {:lang "Common Lisp" :algo "butLast" :lib "-" :id 33 :doc "https://novaspec.org/cl/f_butlast" :sig "-" :expr false}
 "Pharo@allButLast@-@33" {:lang "Pharo" :algo "allButLast" :lib "-" :id 33 :doc "" :sig "-" :expr false}
 "Scheme@iota@list@8" {:lang "Scheme" :algo "iota" :lib "list" :id 8 :doc "https://index.scheme.org/filterset/r7rs_all/%28scheme%2520list%29/iota" :sig "-" :expr false}
+"k@! (enum)@-@8" {:lang "k" :algo "! (enum)" :lib "-" :id 8 :doc "https://ngn.codeberg.page/k/#" :sig "-" :expr false}
+"k@& (where)@-@18" {:lang "k" :algo "& (where)" :lib "-" :id 18 :doc "https://ngn.codeberg.page/k/#" :sig "-" :expr false}
+"k@_ (drop)@-@34" {:lang "k" :algo "_ (drop)" :lib "-" :id 34 :doc "https://ngn.codeberg.page/k/#" :sig "-" :expr false}
+"k@# (take)@-@35" {:lang "k" :algo "# (take)" :lib "-" :id 35 :doc "https://ngn.codeberg.page/k/#" :sig "-" :expr false}
 })
