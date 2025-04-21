@@ -269,7 +269,7 @@
 "C#@All@Linq@31" {:lang "C#" :algo "All" :lib "Linq" :id 31 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.all?view=netcore-3.1" :sig "-" :expr false}
 "JavaScript@every@-@31" {:lang "JavaScript" :algo "every" :lib "-" :id 31 :doc "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every" :sig "-" :expr false}
 "Elm@all@List@31" {:lang "Elm" :algo "all" :lib "List" :id 31 :doc "https://package.elm-lang.org/packages/elm/core/latest/List#all" :sig "-" :expr false}
-"Julia@all@Base@31" {:lang "Julia" :algo "all" :lib "Base" :id 31 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.all-Tuple{AbstractArray,Any}" :sig "-" :expr false}
+"Julia@all@Base@31" {:lang "Julia" :algo "all" :lib "Base" :id 31 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.all-Tuple%7BAny%7D" :sig "-" :expr false}
 "Uiua@/× (reduce multiply)@-@31" {:lang "Uiua" :algo "/× (reduce multiply)" :lib "-" :id 31 :doc "https://www.uiua.org/reduce" :sig "-" :expr true}
 "Haskell@++@Prelude@42" {:lang "Haskell" :algo "++" :lib "Prelude" :id 42 :doc "https://hackage.haskell.org/package/base-4.14.0.0/docs/Prelude.html#v:-43--43-" :sig "-" :expr false}
 "Racket@append@base@42" {:lang "Racket" :algo "append" :lib "base" :id 42 :doc "https://docs.racket-lang.org/reference/pairs.html#%28def._%28%28quote._~23~25kernel%29._append%29%29" :sig "-" :expr false}
@@ -593,4 +593,21 @@
 "Scala@drop@various@34" {:lang "Scala" :algo "drop" :lib "various" :id 34 :doc "https://scala-lang.org/api/current/scala/collection/IterableOps.html#drop-aba" :sig "-" :expr false}
 "Pharo@first:@Collection@35" {:lang "Pharo" :algo "first:" :lib "Collection" :id 35 :doc "" :sig "-" :expr false}
 "Pharo@allButFirst:@Collection@34" {:lang "Pharo" :algo "allButFirst:" :lib "Collection" :id 34 :doc "" :sig "-" :expr false}
+"Julia@reduce@Base@1" {:lang "Julia" :algo "reduce" :lib "Base" :id 1 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.reduce-Tuple%7BAny,%20Any%7D" :sig "-" :expr false}
+"Julia@map@Base@2" {:lang "Julia" :algo "map" :lib "Base" :id 2 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.map" :sig "-" :expr false}
+"Julia@filter@Base@3" {:lang "Julia" :algo "filter" :lib "Base" :id 3 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.filter" :sig "-" :expr false}
+"Julia@range@Base@8" {:lang "Julia" :algo "range" :lib "Base" :id 8 :doc "https://docs.julialang.org/en/v1/base/math/#Base.range" :sig "-" :expr false}
+"Julia@partition@Base@10" {:lang "Julia" :algo "partition" :lib "Base" :id 10 :doc "https://docs.julialang.org/en/v1/base/iterators/#Base.Iterators.partition" :sig "-" :expr false}
+"Julia@unique@Base@15" {:lang "Julia" :algo "unique" :lib "Base" :id 15 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.unique" :sig "-" :expr false}
+"Julia@string@Base@16" {:lang "Julia" :algo "string" :lib "Base" :id 16 :doc "https://docs.julialang.org/en/v1/base/strings/#Base.string" :sig "-" :expr false}
+"Julia@in@Base@17" {:lang "Julia" :algo "in" :lib "Base" :id 17 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.in" :sig "-" :expr false}
+"Julia@contains@Base@17" {:lang "Julia" :algo "contains" :lib "Base" :id 17 :doc "https://docs.julialang.org/en/v1/base/strings/#Base.contains" :sig "-" :expr false}
+"Julia@any@Base@20" {:lang "Julia" :algo "any" :lib "Base" :id 20 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.any-Tuple%7BAny%7D" :sig "-" :expr false}
+"Julia@join@Base@21" {:lang "Julia" :algo "join" :lib "Base" :id 21 :doc "https://docs.julialang.org/en/v1/base/strings/#Base.join" :sig "-" :expr false}
+"Julia@transpose@LinearAlgebra@22" {:lang "Julia" :algo "transpose" :lib "LinearAlgebra" :id 22 :doc "https://docs.julialang.org/en/v1/stdlib/LinearAlgebra/#Base.transpose" :sig "-" :expr false}
+"Julia@repeat@Base@25" {:lang "Julia" :algo "repeat" :lib "Base" :id 25 :doc "https://docs.julialang.org/en/v1/base/arrays/#Base.repeat" :sig "-" :expr false}
+"Julia@drop@Base@34" {:lang "Julia" :algo "drop" :lib "Base" :id 34 :doc "https://docs.julialang.org/en/v1/base/iterators/#Base.Iterators.drop" :sig "-" :expr false}
+"Julia@take@Base@35" {:lang "Julia" :algo "take" :lib "Base" :id 35 :doc "https://docs.julialang.org/en/v1/base/iterators/#Base.Iterators.take" :sig "-" :expr false}
+"Julia@append!@Base@42" {:lang "Julia" :algo "append!" :lib "Base" :id 42 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.append!" :sig "-" :expr false}
+"Julia@reverse@Base@4321" {:lang "Julia" :algo "reverse" :lib "Base" :id 4321 :doc "https://docs.julialang.org/en/v1/base/arrays/#Base.reverse-Tuple%7BAbstractVector%7D" :sig "-" :expr false}
 })
