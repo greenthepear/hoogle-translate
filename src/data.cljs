@@ -583,4 +583,14 @@
 "k@& (where)@-@18" {:lang "k" :algo "& (where)" :lib "-" :id 18 :doc "https://ngn.codeberg.page/k/#" :sig "-" :expr false}
 "k@_ (drop)@-@34" {:lang "k" :algo "_ (drop)" :lib "-" :id 34 :doc "https://ngn.codeberg.page/k/#" :sig "-" :expr false}
 "k@# (take)@-@35" {:lang "k" :algo "# (take)" :lib "-" :id 35 :doc "https://ngn.codeberg.page/k/#" :sig "-" :expr false}
+"C++@take@<ranges>@35" {:lang "C++" :algo "take" :lib "<ranges>" :id 35 :doc "https://en.cppreference.com/w/cpp/ranges/take_view" :sig "-" :expr false}
+"C++@drop@<ranges>@34" {:lang "C++" :algo "drop" :lib "<ranges>" :id 34 :doc "https://en.cppreference.com/w/cpp/ranges/drop_view" :sig "-" :expr false}
+"Rust@take@iter@35" {:lang "Rust" :algo "take" :lib "iter" :id 35 :doc "https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.take" :sig "-" :expr false}
+"Rust@skip@iter@34" {:lang "Rust" :algo "skip" :lib "iter" :id 34 :doc "https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.skip" :sig "-" :expr false}
+"Haskell@take@Prelude@35" {:lang "Haskell" :algo "take" :lib "Prelude" :id 35 :doc "https://hackage.haskell.org/package/base-4.21.0.0/docs/Prelude.html#v:take" :sig "-" :expr false}
+"Haskell@drop@Prelude@34" {:lang "Haskell" :algo "drop" :lib "Prelude" :id 34 :doc "https://hackage.haskell.org/package/base-4.21.0.0/docs/Prelude.html#v:drop" :sig "-" :expr false}
+"Scala@take@various@35" {:lang "Scala" :algo "take" :lib "various" :id 35 :doc "https://scala-lang.org/api/current/scala/collection/IterableOps.html#take-aba" :sig "-" :expr false}
+"Scala@drop@various@34" {:lang "Scala" :algo "drop" :lib "various" :id 34 :doc "https://scala-lang.org/api/current/scala/collection/IterableOps.html#drop-aba" :sig "-" :expr false}
+"Pharo@first:@Collection@35" {:lang "Pharo" :algo "first:" :lib "Collection" :id 35 :doc "" :sig "-" :expr false}
+"Pharo@allButFirst:@Collection@34" {:lang "Pharo" :algo "allButFirst:" :lib "Collection" :id 34 :doc "" :sig "-" :expr false}
 })
