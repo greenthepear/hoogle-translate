@@ -43,6 +43,7 @@
    "jq"                   "jq.jpg"
    "Julia"                "julia_logo.png"
    "Jupyter Notebook"     "jupyter_logo.png"
+   "k"                    "k.png"
    "Kap"                  "kap.png"
    "Kotlin"               "kotlin-2.svg"
    "LFE"                  "lfe.png"
