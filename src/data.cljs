@@ -610,4 +610,8 @@
 "Julia@take@Base@35" {:lang "Julia" :algo "take" :lib "Base" :id 35 :doc "https://docs.julialang.org/en/v1/base/iterators/#Base.Iterators.take" :sig "-" :expr false}
 "Julia@append!@Base@42" {:lang "Julia" :algo "append!" :lib "Base" :id 42 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.append!" :sig "-" :expr false}
 "Julia@reverse@Base@4321" {:lang "Julia" :algo "reverse" :lib "Base" :id 4321 :doc "https://docs.julialang.org/en/v1/base/arrays/#Base.reverse-Tuple%7BAbstractVector%7D" :sig "-" :expr false}
+"C++@minmax_element@<algorithm>@36" {:lang "C++" :algo "minmax_element" :lib "<algorithm>" :id 36 :doc "https://en.cppreference.com/w/cpp/algorithm/minmax_element" :sig "-" :expr false}
+"Julia@extrema@Base@36" {:lang "Julia" :algo "extrema" :lib "Base" :id 36 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.extrema" :sig "-" :expr false}
+"Rust@minmax@itertools@36" {:lang "Rust" :algo "minmax" :lib "itertools" :id 36 :doc "https://docs.rs/itertools/latest/itertools/trait.Itertools.html#method.minmax" :sig "-" :expr false}
+"Nim@minmax@sequtils@36" {:lang "Nim" :algo "minmax" :lib "sequtils" :id 36 :doc "https://nim-lang.org/docs/sequtils.html#minmax,seq[T]" :sig "-" :expr false}
 })
