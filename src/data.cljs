@@ -614,4 +614,5 @@
 "Julia@extrema@Base@36" {:lang "Julia" :algo "extrema" :lib "Base" :id 36 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.extrema" :sig "-" :expr false}
 "Rust@minmax@itertools@36" {:lang "Rust" :algo "minmax" :lib "itertools" :id 36 :doc "https://docs.rs/itertools/latest/itertools/trait.Itertools.html#method.minmax" :sig "-" :expr false}
 "Nim@minmax@sequtils@36" {:lang "Nim" :algo "minmax" :lib "sequtils" :id 36 :doc "https://nim-lang.org/docs/sequtils.html#minmax,seq[T]" :sig "-" :expr false}
+"Python@minmax@more-itertools@36" {:lang "Python" :algo "minmax" :lib "more-itertools" :id 36 :doc "https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.minmax" :sig "-" :expr false}
 })
