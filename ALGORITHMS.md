@@ -612,3 +612,4 @@
 |    Julia    |          `extrema`           |   36   |         `Base`          |       |                                     [doc](https://docs.julialang.org/en/v1/base/collections/#Base.extrema)                                     |
 |    Rust     |           `minmax`           |   36   |       `itertools`       |       |                              [doc](https://docs.rs/itertools/latest/itertools/trait.Itertools.html#method.minmax)                              |
 |     Nim     |           `minmax`           |   36   |       `sequtils`        |       |                                          [doc](https://nim-lang.org/docs/sequtils.html#minmax,seq[T])                                          |
+|   Python    |           `minmax`           |   36   |    `more-itertools`     |       |                             [doc](https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.minmax)                              |
