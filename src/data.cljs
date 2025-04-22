@@ -304,6 +304,7 @@
 "Java@rotate@Collections@4104" {:lang "Java" :algo "rotate" :lib "Collections" :id 4104 :doc "https://docs.oracle.com/javase/7/docs/api/java/util/Collections.html#rotate(java.util.List,%20int)" :sig "-" :expr false}
 "Julia@circshift@-@4104" {:lang "Julia" :algo "circshift" :lib "-" :id 4104 :doc "https://docs.julialang.org/en/v1/base/arrays/#Base.circshift" :sig "-" :expr false}
 "q@rotate@Core@4104" {:lang "q" :algo "rotate" :lib "Core" :id 4104 :doc "https://code.kx.com/q4m3/A_Built-in_Functions/#a79-rotate" :sig "-" :expr false}
+"Python@rotate@collections@4104" {:lang "Python" :algo "rotate" :lib "collections" :id 4104 :doc "https://docs.python.org/3/library/collections.html#collections.deque.rotate" :sig "-" :expr false}
 "Uiua@↻ (rotate)@-@4104" {:lang "Uiua" :algo "↻ (rotate)" :lib "-" :id 4104 :doc "https://www.uiua.org/docs/rotate" :sig "-" :expr false}
 "Rust@dedup@itertools@14" {:lang "Rust" :algo "dedup" :lib "itertools" :id 14 :doc "https://docs.rs/itertools/latest/itertools/trait.Itertools.html#method.dedup" :sig "-" :expr false}
 "Racket@remove-duplicates@-@15" {:lang "Racket" :algo "remove-duplicates" :lib "-" :id 15 :doc "https://docs.racket-lang.org/reference/pairs.html#%28def._%28%28lib._racket/list..rkt%29._remove-duplicates%29%29" :sig "-" :expr false}
