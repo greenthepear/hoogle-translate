@@ -620,4 +620,20 @@
 "C++@flip@boost::hana@5030" {:lang "C++" :algo "flip" :lib "boost::hana" :id 5030 :doc "https://www.boost.org/doc/libs/1_88_0/boost/hana/functional/flip.hpp" :sig "-" :expr false}
 "BQN@↕∘≠⋈¨⊢@-@9" {:lang "BQN" :algo "↕∘≠⋈¨⊢" :lib "-" :id 9 :doc "" :sig "-" :expr true}
 "APL@⍳∘≢,¨⊢@-@9" {:lang "APL" :algo "⍳∘≢,¨⊢" :lib "-" :id 9 :doc "" :sig "-" :expr true}
+"Haskell@maximum@Prelude@37" {:lang "Haskell" :algo "maximum" :lib "Prelude" :id 37 :doc "https://hackage.haskell.org/package/base-4.21.0.0/docs/Prelude.html#v:maximum" :sig "-" :expr false}
+"Python@max@-@37" {:lang "Python" :algo "max" :lib "-" :id 37 :doc "https://docs.python.org/3/library/functions.html#max" :sig "-" :expr false}
+"C++@max_element@<algorithm>@37" {:lang "C++" :algo "max_element" :lib "<algorithm>" :id 37 :doc "https://en.cppreference.com/w/cpp/algorithm/max_element" :sig "-" :expr false}
+"Rust@max@iter@37" {:lang "Rust" :algo "max" :lib "iter" :id 37 :doc "https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.max" :sig "-" :expr false}
+"Julia@maximum@Base@37" {:lang "Julia" :algo "maximum" :lib "Base" :id 37 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.maximum" :sig "-" :expr false}
+"Scala@max@-@37" {:lang "Scala" :algo "max" :lib "-" :id 37 :doc "https://www.scala-lang.org/api/current/scala/collection/IterableOps.html#max-ffffff34" :sig "-" :expr false}
+"Ruby@max@-@37" {:lang "Ruby" :algo "max" :lib "-" :id 37 :doc "https://apidock.com/ruby/Enumerable/max" :sig "-" :expr false}
+"Elixir@max@Enum@37" {:lang "Elixir" :algo "max" :lib "Enum" :id 37 :doc "https://hexdocs.pm/elixir/Enum.html#max/1" :sig "-" :expr false}
+"Java@max@Streams@37" {:lang "Java" :algo "max" :lib "Streams" :id 37 :doc "https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html#max--" :sig "-" :expr false}
+"Swift@max@Sequence@37" {:lang "Swift" :algo "max" :lib "Sequence" :id 37 :doc "https://developer.apple.com/documentation/swift/sequence/max()" :sig "-" :expr false}
+"Kotlin@max@Sequence@37" {:lang "Kotlin" :algo "max" :lib "Sequence" :id 37 :doc "https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/max.html" :sig "-" :expr false}
+"C#@Max@Linq@37" {:lang "C#" :algo "Max" :lib "Linq" :id 37 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.max" :sig "-" :expr false}
+"JavaScript@Math.max@-@37" {:lang "JavaScript" :algo "Math.max" :lib "-" :id 37 :doc "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max" :sig "-" :expr false}
+"OCaml@max@-@37" {:lang "OCaml" :algo "max" :lib "-" :id 37 :doc "https://ocaml.org/api/Stdlib.html#max" :sig "-" :expr false}
+"Common Lisp@max@-@37" {:lang "Common Lisp" :algo "max" :lib "-" :id 37 :doc "https://novaspec.org/cl/f_max" :sig "-" :expr false}
+"CUDA@max_element@Thrust@37" {:lang "CUDA" :algo "max_element" :lib "Thrust" :id 37 :doc "https://nvidia.github.io/cccl/thrust/api/function_group__extrema_1gadd477c531dc4a4bf847f70ce73d01464.html" :sig "-" :expr false}
 })
