@@ -616,4 +616,5 @@
 "Rust@minmax@itertools@36" {:lang "Rust" :algo "minmax" :lib "itertools" :id 36 :doc "https://docs.rs/itertools/latest/itertools/trait.Itertools.html#method.minmax" :sig "-" :expr false}
 "Nim@minmax@sequtils@36" {:lang "Nim" :algo "minmax" :lib "sequtils" :id 36 :doc "https://nim-lang.org/docs/sequtils.html#minmax,seq[T]" :sig "-" :expr false}
 "Python@minmax@more-itertools@36" {:lang "Python" :algo "minmax" :lib "more-itertools" :id 36 :doc "https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.minmax" :sig "-" :expr false}
+"Haskell@flip@-@5030" {:lang "Haskell" :algo "flip" :lib "-" :id 5030 :doc "https://hackage.haskell.org/package/base-4.21.0.0/docs/Prelude.html#v:flip" :sig "-" :expr false}
 })
