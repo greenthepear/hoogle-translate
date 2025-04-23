@@ -618,4 +618,6 @@
 "Python@minmax@more-itertools@36" {:lang "Python" :algo "minmax" :lib "more-itertools" :id 36 :doc "https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.minmax" :sig "-" :expr false}
 "Haskell@flip@-@5030" {:lang "Haskell" :algo "flip" :lib "-" :id 5030 :doc "https://hackage.haskell.org/package/base-4.21.0.0/docs/Prelude.html#v:flip" :sig "-" :expr false}
 "C++@flip@boost::hana@5030" {:lang "C++" :algo "flip" :lib "boost::hana" :id 5030 :doc "https://www.boost.org/doc/libs/1_88_0/boost/hana/functional/flip.hpp" :sig "-" :expr false}
+"BQN@↕∘≠⋈¨⊢@-@9" {:lang "BQN" :algo "↕∘≠⋈¨⊢" :lib "-" :id 9 :doc "" :sig "-" :expr true}
+"APL@⍳∘≢,¨⊢@-@9" {:lang "APL" :algo "⍳∘≢,¨⊢" :lib "-" :id 9 :doc "" :sig "-" :expr true}
 })
