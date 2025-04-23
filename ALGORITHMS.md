@@ -615,3 +615,4 @@
 |     Nim     |           `minmax`           |   36   |       `sequtils`        |       |                                          [doc](https://nim-lang.org/docs/sequtils.html#minmax,seq[T])                                          |
 |   Python    |           `minmax`           |   36   |    `more-itertools`     |       |                             [doc](https://more-itertools.readthedocs.io/en/stable/api.html#more_itertools.minmax)                              |
 |   Haskell   |            `flip`            |  5030  |           `-`           |       |                               [doc](https://hackage.haskell.org/package/base-4.21.0.0/docs/Prelude.html#v:flip)                                |
+|     C++     |            `flip`            |  5030  |      `boost::hana`      |       |                                  [doc](https://www.boost.org/doc/libs/1_88_0/boost/hana/functional/flip.hpp)                                   |

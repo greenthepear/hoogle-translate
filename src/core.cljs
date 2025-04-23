@@ -140,7 +140,7 @@
 
 (def third-party-libraries
   {"python"  ["RAPIDS cuDF" "pandas" "NumPy" "more-itertools"]
-   "c++"     ["range-v3"]
+   "c++"     ["range-v3" "boost::hana"]
    "rust"    ["itertools"]
    "clojure" ["core.matrix"]})
 
