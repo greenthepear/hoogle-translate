@@ -650,4 +650,5 @@
 "OCaml@max@-@37" {:lang "OCaml" :algo "max" :lib "-" :id 37 :doc "https://ocaml.org/api/Stdlib.html#max" :sig "-" :expr false}
 "Common Lisp@max@-@37" {:lang "Common Lisp" :algo "max" :lib "-" :id 37 :doc "https://novaspec.org/cl/f_max" :sig "-" :expr false}
 "CUDA@max_element@Thrust@37" {:lang "CUDA" :algo "max_element" :lib "Thrust" :id 37 :doc "https://nvidia.github.io/cccl/thrust/api/function_group__extrema_1gadd477c531dc4a4bf847f70ce73d01464.html" :sig "-" :expr false}
+"Haskell@join@Control.Monad@5230" {:lang "Haskell" :algo "join" :lib "Control.Monad" :id 5230 :doc "https://hackage.haskell.org/package/base-4.21.0.0/docs/Control-Monad.html#v:join" :sig "-" :expr false}
 })
