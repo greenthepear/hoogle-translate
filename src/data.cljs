@@ -5,6 +5,10 @@
 "J@/ (insert)@-@1" {:lang "J" :algo "/ (insert)" :lib "-" :id 1 :doc "https://code.jsoftware.com/wiki/Vocabulary/slash" :sig "-" :expr false}
 "APL@/ (reduce)@-@1" {:lang "APL" :algo "/ (reduce)" :lib "-" :id 1 :doc "http://microapl.com/apl_help/ch_020_020_800.htm" :sig "-" :expr false}
 "C++@accumulate@<numeric>@1" {:lang "C++" :algo "accumulate" :lib "<numeric>" :id 1 :doc "https://en.cppreference.com/w/cpp/algorithm/accumulate" :sig "-" :expr false}
+"C++@fold_left@<algorithm>@1" {:lang "C++" :algo "fold_left" :lib "<algorithm>" :id 1 :doc "https://en.cppreference.com/w/cpp/algorithm/ranges/fold_left" :sig "-" :expr false}
+"C++@fold_left_first@<algorithm>@1" {:lang "C++" :algo "fold_left_first" :lib "<algorithm>" :id 1 :doc "https://en.cppreference.com/w/cpp/algorithm/ranges/fold_left_first" :sig "-" :expr false}
+"C++@fold_right@<algorithm>@1" {:lang "C++" :algo "fold_right" :lib "<algorithm>" :id 1 :doc "https://en.cppreference.com/w/cpp/algorithm/ranges/fold_right" :sig "-" :expr false}
+"C++@fold_right_last@<algorithm>@1" {:lang "C++" :algo "fold_right_last" :lib "<algorithm>" :id 1 :doc "https://en.cppreference.com/w/cpp/algorithm/ranges/fold_right_last" :sig "-" :expr false}
 "C#@Aggregate@Enumerable@1" {:lang "C#" :algo "Aggregate" :lib "Enumerable" :id 1 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate" :sig "-" :expr false}
 "Rust@fold@iter@1" {:lang "Rust" :algo "fold" :lib "iter" :id 1 :doc "https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.fold" :sig "-" :expr false}
 "Haskell@foldl@Data.List@1" {:lang "Haskell" :algo "foldl" :lib "Data.List" :id 1 :doc "https://hackage.haskell.org/package/base-4.12.0.0/docs/Prelude.html#v:foldl" :sig "-" :expr false}
@@ -95,6 +99,7 @@
 "Haskell@indexed@Data.List.Index@9" {:lang "Haskell" :algo "indexed" :lib "Data.List.Index" :id 9 :doc "https://hackage.haskell.org/package/ilist-0.4.0.0/docs/Data-List-Index.html#v:indexed" :sig "-" :expr false}
 "Racket@indexed@data-collections@9" {:lang "Racket" :algo "indexed" :lib "data-collections" :id 9 :doc "https://docs.racket-lang.org/collections/collections-api.html?q=chunk-while#%28def._%28%28lib._data%2Fcollection..rkt%29._indexed%29%29" :sig "-" :expr false}
 "Clojure@map-indexed*@core@9" {:lang "Clojure" :algo "map-indexed*" :lib "core" :id 9 :doc "https://clojuredocs.org/clojure.core/map-indexed" :sig "-" :expr false}
+"C++@enumerate@<ranges>@9" {:lang "C++" :algo "enumerate" :lib "<ranges>" :id 9 :doc "https://en.cppreference.com/w/cpp/ranges/enumerate_view" :sig "-" :expr false}
 "C#@Select@Enumerable@9" {:lang "C#" :algo "Select" :lib "Enumerable" :id 9 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.select" :sig "-" :expr false}
 "Elixir@with_index@Enum@9" {:lang "Elixir" :algo "with_index" :lib "Enum" :id 9 :doc "https://hexdocs.pm/elixir/Enum.html#with_index/2" :sig "-" :expr false}
 "Ruby@with_index@Enumerable@9" {:lang "Ruby" :algo "with_index" :lib "Enumerable" :id 9 :doc "https://apidock.com/ruby/Enumerator/with_index" :sig "-" :expr false}
@@ -143,6 +148,7 @@
 "D@canFind@algorithm.searching@17" {:lang "D" :algo "canFind" :lib "algorithm.searching" :id 17 :doc "https://dlang.org/library/std/algorithm/searching/can_find.can_find.html" :sig "-" :expr false}
 "Kotlin@contains@collections@17" {:lang "Kotlin" :algo "contains" :lib "collections" :id 17 :doc "https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/contains.html" :sig "-" :expr false}
 "Scala@contains@various@17" {:lang "Scala" :algo "contains" :lib "various" :id 17 :doc "https://scala-lang.org/api/current/scala/collection/Iterator.html#contains-4ad" :sig "-" :expr false}
+"C++@contains@algorithm@17" {:lang "C++" :algo "contains" :lib "algorithm" :id 17 :doc "https://en.cppreference.com/w/cpp/algorithm/ranges/contains" :sig "-" :expr false}
 "Clojure@contains?@core@17" {:lang "Clojure" :algo "contains?" :lib "core" :id 17 :doc "https://clojuredocs.org/clojure.core/contains_q" :sig "-" :expr false}
 "Haskell@elem@Prelude@17" {:lang "Haskell" :algo "elem" :lib "Prelude" :id 17 :doc "https://hackage.haskell.org/package/base-4.12.0.0/docs/Prelude.html#v:elem" :sig "-" :expr false}
 "Python@in@-@17" {:lang "Python" :algo "in" :lib "-" :id 17 :doc "https://www.programiz.com/python-programming/keyword-list#in" :sig "-" :expr false}
@@ -182,17 +188,20 @@
 "Rust@join@vec@21" {:lang "Rust" :algo "join" :lib "vec" :id 21 :doc "https://doc.rust-lang.org/std/vec/struct.Vec.html#method.join" :sig "-" :expr false}
 "Go@Join@strings@21" {:lang "Go" :algo "Join" :lib "strings" :id 21 :doc "https://golang.org/pkg/strings/#Join" :sig "-" :expr false}
 "C#@join@String@21" {:lang "C#" :algo "join" :lib "String" :id 21 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.string.join?view=netframework-4.8" :sig "-" :expr false}
-"C++@join@Ranges@21" {:lang "C++" :algo "join" :lib "Ranges" :id 21 :doc "https://en.cppreference.com/w/cpp/ranges/join_view" :sig "-" :expr false}
+"C++@join@<ranges>@21" {:lang "C++" :algo "join" :lib "<ranges>" :id 21 :doc "https://en.cppreference.com/w/cpp/ranges/join_view" :sig "-" :expr false}
 "F#@join@String@21" {:lang "F#" :algo "join" :lib "String" :id 21 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.string.join?view=netframework-4.8" :sig "-" :expr false}
 "Python@join*@str@21" {:lang "Python" :algo "join*" :lib "str" :id 21 :doc "https://docs.python.org/3/library/stdtypes.html#str.join" :sig "-" :expr false}
 "Kotlin@joinTo@collections@21" {:lang "Kotlin" :algo "joinTo" :lib "collections" :id 21 :doc "https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/join-to.html" :sig "-" :expr false}
 "Uiua@♭ (deshape)@-@21" {:lang "Uiua" :algo "♭ (deshape)" :lib "-" :id 21 :doc "https://www.uiua.org/docs/deshape" :sig "-" :expr false}
-"Python@zip(*)@-@22" {:lang "Python" :algo "zip(*)" :lib "-" :id 22 :doc "https://docs.python.org/3/library/functions.html#zip" :sig "-" :expr false}
+"Python@zip(*)@-@22" {:lang "Python" :algo "zip(*)" :lib "-" :id 22 :doc "https://docs.python.org/3/library/functions.html#zip" :sig "-" :expr true}
 "Python@transpose@pandas@22" {:lang "Python" :algo "transpose" :lib "pandas" :id 22 :doc "https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.transpose.html" :sig "-" :expr false}
 "Ruby@transpose@Array@22" {:lang "Ruby" :algo "transpose" :lib "Array" :id 22 :doc "https://apidock.com/ruby/Array/transpose" :sig "-" :expr false}
 "APL@⍉ (transpose)@-@22" {:lang "APL" :algo "⍉ (transpose)" :lib "-" :id 22 :doc "http://microapl.com/apl_help/ch_020_020_540.htm" :sig "-" :expr false}
 "F#@transpose@List@22" {:lang "F#" :algo "transpose" :lib "List" :id 22 :doc "https://fsharp.github.io/fsharp-core-docs/reference/fsharp-collections-listmodule.html#transpose" :sig "-" :expr false}
-"F#@zip@List@28" {:lang "F#" :algo "zip" :lib "List" :id 28 :doc "https://fsharp.github.io/fsharp-core-docs/reference/fsharp-collections-listmodule.html#zip" :sig "-" :expr false}
+"Python@zip@-@28" {:lang "Python" :algo "zip" :lib "-" :id 28 :doc "https://docs.python.org/3/library/functions.html#zip" :sig "-" :expr false}
+"F#@zip@various@28" {:lang "F#" :algo "zip" :lib "various" :id 28 :doc "https://fsharp.github.io/fsharp-core-docs/reference/fsharp-collections-listmodule.html#zip" :sig "-" :expr false}
+"F#@zip3@various@28" {:lang "F#" :algo "zip3" :lib "various" :id 28 :doc "https://fsharp.github.io/fsharp-core-docs/reference/fsharp-collections-listmodule.html#zip3" :sig "-" :expr false}
+"C++@zip@<ranges>@28" {:lang "C++" :algo "zip" :lib "<ranges>" :id 28 :doc "https://en.cppreference.com/w/cpp/ranges/zip_view" :sig "-" :expr false}
 "Haskell@transpose@Data.List@22" {:lang "Haskell" :algo "transpose" :lib "Data.List" :id 22 :doc "https://hackage.haskell.org/package/base-4.12.0.0/docs/Data-List.html#v:transpose" :sig "-" :expr false}
 "q@flip@- @22" {:lang "q" :algo "flip" :lib "- " :id 22 :doc "https://code.kx.com/v2/ref/flip/" :sig "-" :expr false}
 "J@|: (transpose)@- @22" {:lang "J" :algo "|: (transpose)" :lib "- " :id 22 :doc "https://code.jsoftware.com/wiki/Vocabulary/barco" :sig "-" :expr false}
@@ -230,6 +239,7 @@
 "OCaml@map2@List@30" {:lang "OCaml" :algo "map2" :lib "List" :id 30 :doc "https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html" :sig "-" :expr false}
 "F#@map2@Seq@30" {:lang "F#" :algo "map2" :lib "Seq" :id 30 :doc "https://msdn.microsoft.com/visualfsharpdocs/conceptual/list.map2%5b%27t1%2c%27t2%2c%27u%5d-function-%5bfsharp%5d" :sig "-" :expr false}
 "C++@filter@range-v3@3" {:lang "C++" :algo "filter" :lib "range-v3" :id 3 :doc "https://ericniebler.github.io/range-v3/index.html#tutorial-views" :sig "-" :expr false}
+"C++@filter@<ranges>@3" {:lang "C++" :algo "filter" :lib "<ranges>" :id 3 :doc "https://en.cppreference.com/w/cpp/ranges/filter_view" :sig "-" :expr false}
 "C#@Where@Enumerable@3" {:lang "C#" :algo "Where" :lib "Enumerable" :id 3 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.where?view=netcore-3.1" :sig "-" :expr false}
 "Java@filter@Streams@3" {:lang "Java" :algo "filter" :lib "Streams" :id 3 :doc "https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#filter-java.util.function.Predicate-" :sig "-" :expr false}
 "OCaml@filter@List@3" {:lang "OCaml" :algo "filter" :lib "List" :id 3 :doc "https://ocaml.org/releases/4.10/htmlman/libref/List.html" :sig "-" :expr false}
@@ -246,6 +256,7 @@
 "D@cartesianProduct@std.algorithm.setops@100" {:lang "D" :algo "cartesianProduct" :lib "std.algorithm.setops" :id 100 :doc "https://dlang.org/library/std/algorithm/setops/cartesian_product.html" :sig "-" :expr false}
 "D@dotProduct@std.numeric@7" {:lang "D" :algo "dotProduct" :lib "std.numeric" :id 7 :doc "https://dlang.org/library/std/numeric/dot_product.html" :sig "-" :expr false}
 "C++@cartesian_product@range-v3@100" {:lang "C++" :algo "cartesian_product" :lib "range-v3" :id 100 :doc "https://ericniebler.github.io/range-v3/index.html#tutorial-views" :sig "-" :expr false}
+"C++@cartesian_product@<ranges>@100" {:lang "C++" :algo "cartesian_product" :lib "<ranges>" :id 100 :doc "https://en.cppreference.com/w/cpp/ranges/cartesian_product_view" :sig "-" :expr false}
 "Python@product@itertools@100" {:lang "Python" :algo "product" :lib "itertools" :id 100 :doc "https://docs.python.org/3/library/itertools.html#itertools.product" :sig "-" :expr false}
 "q@cross@-@100" {:lang "q" :algo "cross" :lib "-" :id 100 :doc "https://code.kx.com/q4m3/A_Built-in_Functions/#a18-cross" :sig "-" :expr false}
 "J@. (Matrix Product)@-@7" {:lang "J" :algo ". (Matrix Product)" :lib "-" :id 7 :doc "https://code.jsoftware.com/wiki/Vocabulary/dot#dyadic" :sig "-" :expr false}
@@ -275,7 +286,7 @@
 "Racket@append@base@42" {:lang "Racket" :algo "append" :lib "base" :id 42 :doc "https://docs.racket-lang.org/reference/pairs.html#%28def._%28%28quote._~23~25kernel%29._append%29%29" :sig "-" :expr false}
 "Python@append@list@42" {:lang "Python" :algo "append" :lib "list" :id 42 :doc "https://docs.python.org/3/tutorial/introduction.html#lists" :sig "-" :expr false}
 "Clojure@concat@List@42" {:lang "Clojure" :algo "concat" :lib "List" :id 42 :doc "https://clojuredocs.org/clojure.core/concat" :sig "-" :expr false}
-"C++@concat@Ranges@42" {:lang "C++" :algo "concat" :lib "Ranges" :id 42 :doc "https://en.cppreference.com/w/cpp/ranges/concat_view" :sig "-" :expr false}
+"C++@concat@<ranges>@42" {:lang "C++" :algo "concat" :lib "<ranges>" :id 42 :doc "https://en.cppreference.com/w/cpp/ranges/concat_view" :sig "-" :expr false}
 "Swift@+@Array@42" {:lang "Swift" :algo "+" :lib "Array" :id 42 :doc "https://developer.apple.com/documentation/swift/array/2963457" :sig "-" :expr false}
 "Rust@chain@iter@42" {:lang "Rust" :algo "chain" :lib "iter" :id 42 :doc "https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.chain" :sig "-" :expr false}
 "Python@chain@itertools@42" {:lang "Python" :algo "chain" :lib "itertools" :id 42 :doc "https://docs.python.org/3/library/itertools.html#itertools.chain" :sig "-" :expr false}
@@ -403,7 +414,7 @@
 "Python@where@NumPy@18" {:lang "Python" :algo "where" :lib "NumPy" :id 18 :doc "https://numpy.org/doc/stable/reference/generated/numpy.where.html" :sig "-" :expr false}
 "BQN@⍷ (deduplicate)@-@15" {:lang "BQN" :algo "⍷ (deduplicate)" :lib "-" :id 15 :doc "https://mlochbaum.github.io/BQN/doc/selfcmp.html#deduplicate" :sig "-" :expr false}
 "Scala@sliding@various@27" {:lang "Scala" :algo "sliding" :lib "various" :id 27 :doc "https://scala-lang.org/api/current/scala/collection/IterableOps.html#sliding-fffffbef" :sig "-" :expr false}
-"C++@sliding@<ranges>@27" {:lang "C++" :algo "sliding" :lib "<ranges>" :id 27 :doc "https://en.cppreference.com/w/cpp/ranges/slide_view" :sig "-" :expr false}
+"C++@slide@<ranges>@27" {:lang "C++" :algo "slide" :lib "<ranges>" :id 27 :doc "https://en.cppreference.com/w/cpp/ranges/slide_view" :sig "-" :expr false}
 "Scala@partition@various@10" {:lang "Scala" :algo "partition" :lib "various" :id 10 :doc "https://scala-lang.org/api/current/scala/collection/Iterator.html#partition-243" :sig "-" :expr false}
 "Scala@grouped@various@11" {:lang "Scala" :algo "grouped" :lib "various" :id 11 :doc "https://scala-lang.org/api/current/scala/collection/ArrayOps.html#grouped-fffffbef" :sig "-" :expr false}
 "Scala@flatten@various@21" {:lang "Scala" :algo "flatten" :lib "various" :id 21 :doc "https://scala-lang.org/api/current/scala/collection/IterableOnceOps.html#flatten-5d3" :sig "-" :expr false}
@@ -492,6 +503,7 @@
 "J@] (same)@-@5090" {:lang "J" :algo "] (same)" :lib "-" :id 5090 :doc "https://code.jsoftware.com/wiki/Vocabulary/squarert" :sig "-" :expr false}
 "BQN@⊢ (right)@-@5090" {:lang "BQN" :algo "⊢ (right)" :lib "-" :id 5090 :doc "https://mlochbaum.github.io/BQN/doc/identity.html" :sig "-" :expr false}
 "Uiua@∘ (identity)@-@5090" {:lang "Uiua" :algo "∘ (identity)" :lib "-" :id 5090 :doc "https://www.uiua.org/docs/identity" :sig "-" :expr false}
+"C++@identity@<functional>@5090" {:lang "C++" :algo "identity" :lib "<functional>" :id 5090 :doc "https://en.cppreference.com/w/cpp/utility/functional/identity" :sig "-" :expr false}
 "APL@⊢ (right)@-@5111" {:lang "APL" :algo "⊢ (right)" :lib "-" :id 5111 :doc "https://help.dyalog.com/17.1/Content/Language/Primitive%20Functions/Right.htm" :sig "-" :expr false}
 "TinyAPL@⊢ (right)@-@5111" {:lang "TinyAPL" :algo "⊢ (right)" :lib "-" :id 5111 :doc "https://tinyapl.rubenverg.com/docs/primitive/right" :sig "-" :expr false}
 "Kap@⊢ (right)@-@5111" {:lang "Kap" :algo "⊢ (right)" :lib "-" :id 5111 :doc "https://kapdemo.dhsdevelopments.com/reference.html#_identityright" :sig "-" :expr false}
@@ -569,6 +581,7 @@
 "Rust@rev@iter@4321" {:lang "Rust" :algo "rev" :lib "iter" :id 4321 :doc "https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.rev" :sig "-" :expr false}
 "Python@reversed@-@4321" {:lang "Python" :algo "reversed" :lib "-" :id 4321 :doc "https://docs.python.org/3/library/functions.html#reversed" :sig "-" :expr false}
 "Python@reverse@-@4321" {:lang "Python" :algo "reverse" :lib "-" :id 4321 :doc "https://docs.python.org/3/library/stdtypes.html#mutable-sequence-types" :sig "-" :expr false}
+"C++@reverse@<ranges>@4321" {:lang "C++" :algo "reverse" :lib "<ranges>" :id 4321 :doc "https://en.cppreference.com/w/cpp/algorithm/ranges/reverse" :sig "-" :expr false}
 "C#@Reverse@Enumerable@4321" {:lang "C#" :algo "Reverse" :lib "Enumerable" :id 4321 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.reverse" :sig "-" :expr false}
 "Uiua@◰ (unique)@-@32" {:lang "Uiua" :algo "◰ (unique)" :lib "-" :id 32 :doc "https://www.uiua.org/docs/unique" :sig "-" :expr false}
 "APL@≠ (unique mask)@-@32" {:lang "APL" :algo "≠ (unique mask)" :lib "-" :id 32 :doc "https://aplwiki.com/wiki/Nub_Sieve" :sig "-" :expr false}
@@ -611,7 +624,8 @@
 "Julia@take@Base@35" {:lang "Julia" :algo "take" :lib "Base" :id 35 :doc "https://docs.julialang.org/en/v1/base/iterators/#Base.Iterators.take" :sig "-" :expr false}
 "Julia@append!@Base@42" {:lang "Julia" :algo "append!" :lib "Base" :id 42 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.append!" :sig "-" :expr false}
 "Julia@reverse@Base@4321" {:lang "Julia" :algo "reverse" :lib "Base" :id 4321 :doc "https://docs.julialang.org/en/v1/base/arrays/#Base.reverse-Tuple%7BAbstractVector%7D" :sig "-" :expr false}
-"C++@minmax_element@<algorithm>@36" {:lang "C++" :algo "minmax_element" :lib "<algorithm>" :id 36 :doc "https://en.cppreference.com/w/cpp/algorithm/minmax_element" :sig "-" :expr false}
+"C++@minmax_element@<algorithm>@36" {:lang "C++" :algo "minmax_element" :lib "<algorithm>" :id 36 :doc "https://en.cppreference.com/w/cpp/algorithm/ranges/minmax_element" :sig "-" :expr false}
+"C++@minmax@<algorithm>@36" {:lang "C++" :algo "minmax" :lib "<algorithm>" :id 36 :doc "https://en.cppreference.com/w/cpp/algorithm/ranges/minmax" :sig "-" :expr false}
 "Julia@extrema@Base@36" {:lang "Julia" :algo "extrema" :lib "Base" :id 36 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.extrema" :sig "-" :expr false}
 "Rust@minmax@itertools@36" {:lang "Rust" :algo "minmax" :lib "itertools" :id 36 :doc "https://docs.rs/itertools/latest/itertools/trait.Itertools.html#method.minmax" :sig "-" :expr false}
 "Nim@minmax@sequtils@36" {:lang "Nim" :algo "minmax" :lib "sequtils" :id 36 :doc "https://nim-lang.org/docs/sequtils.html#minmax,seq[T]" :sig "-" :expr false}
