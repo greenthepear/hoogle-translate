@@ -651,4 +651,20 @@
 "Common Lisp@max@-@37" {:lang "Common Lisp" :algo "max" :lib "-" :id 37 :doc "https://novaspec.org/cl/f_max" :sig "-" :expr false}
 "CUDA@max_element@Thrust@37" {:lang "CUDA" :algo "max_element" :lib "Thrust" :id 37 :doc "https://nvidia.github.io/cccl/thrust/api/function_group__extrema_1gadd477c531dc4a4bf847f70ce73d01464.html" :sig "-" :expr false}
 "Haskell@join@Control.Monad@5230" {:lang "Haskell" :algo "join" :lib "Control.Monad" :id 5230 :doc "https://hackage.haskell.org/package/base-4.21.0.0/docs/Control-Monad.html#v:join" :sig "-" :expr false}
+"Haskell@minimum@Prelude@38" {:lang "Haskell" :algo "minimum" :lib "Prelude" :id 38 :doc "https://hackage.haskell.org/package/base-4.21.0.0/docs/Prelude.html#v:minimum" :sig "-" :expr false}
+"Python@min@-@38" {:lang "Python" :algo "min" :lib "-" :id 38 :doc "https://docs.python.org/3/library/functions.html#min" :sig "-" :expr false}
+"C++@min_element@<algorithm>@38" {:lang "C++" :algo "min_element" :lib "<algorithm>" :id 38 :doc "https://en.cppreference.com/w/cpp/algorithm/min_element" :sig "-" :expr false}
+"Rust@min@iter@38" {:lang "Rust" :algo "min" :lib "iter" :id 38 :doc "https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.min" :sig "-" :expr false}
+"Julia@minimum@Base@38" {:lang "Julia" :algo "minimum" :lib "Base" :id 38 :doc "https://docs.julialang.org/en/v1/base/collections/#Base.minimum" :sig "-" :expr false}
+"Scala@min@-@38" {:lang "Scala" :algo "min" :lib "-" :id 38 :doc "https://www.scala-lang.org/api/current/scala/collection/IterableOps.html#min-ffffff34" :sig "-" :expr false}
+"Ruby@min@-@38" {:lang "Ruby" :algo "min" :lib "-" :id 38 :doc "https://apidock.com/ruby/Enumerable/min" :sig "-" :expr false}
+"Elixir@min@Enum@38" {:lang "Elixir" :algo "min" :lib "Enum" :id 38 :doc "https://hexdocs.pm/elixir/Enum.html#min/1" :sig "-" :expr false}
+"Java@min@Streams@38" {:lang "Java" :algo "min" :lib "Streams" :id 38 :doc "https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html#min--" :sig "-" :expr false}
+"Swift@min@Sequence@38" {:lang "Swift" :algo "min" :lib "Sequence" :id 38 :doc "https://developer.apple.com/documentation/swift/sequence/min()" :sig "-" :expr false}
+"Kotlin@min@Sequence@38" {:lang "Kotlin" :algo "min" :lib "Sequence" :id 38 :doc "https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/min.html" :sig "-" :expr false}
+"C#@Min@Linq@38" {:lang "C#" :algo "Min" :lib "Linq" :id 38 :doc "https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.min" :sig "-" :expr false}
+"JavaScript@Math.min@-@38" {:lang "JavaScript" :algo "Math.min" :lib "-" :id 38 :doc "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min" :sig "-" :expr false}
+"OCaml@min@-@38" {:lang "OCaml" :algo "min" :lib "-" :id 38 :doc "https://ocaml.org/api/Stdlib.html#min" :sig "-" :expr false}
+"Common Lisp@min@-@38" {:lang "Common Lisp" :algo "min" :lib "-" :id 38 :doc "https://novaspec.org/cl/f_max" :sig "-" :expr false}
+"CUDA@min_element@Thrust@38" {:lang "CUDA" :algo "min_element" :lib "Thrust" :id 38 :doc "https://nvidia.github.io/cccl/thrust/api/function_group__extrema_1ga70a05eafeff24c0553adcbb51d8f052a.html" :sig "-" :expr false}
 })
