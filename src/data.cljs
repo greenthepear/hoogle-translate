@@ -309,6 +309,7 @@
 "C++@rotate@<algorithm>@4104" {:lang "C++" :algo "rotate" :lib "<algorithm>" :id 4104 :doc "https://en.cppreference.com/w/cpp/algorithm/rotate" :sig "-" :expr false}
 "F#@permute@various@4104" {:lang "F#" :algo "permute" :lib "various" :id 4104 :doc "https://fsharp.github.io/fsharp-core-docs/reference/fsharp-collections-arraymodule.html#permute" :sig "-" :expr false}
 "APL@⌽ (rotate)@-@4104" {:lang "APL" :algo "⌽ (rotate)" :lib "-" :id 4104 :doc "https://microapl.com/apl_help/ch_020_020_520.htm" :sig "-" :expr false}
+"BQN@⌽ (rotate)@-@4104" {:lang "BQN" :algo "⌽ (rotate)" :lib "-" :id 4104 :doc "https://mlochbaum.github.io/BQN/doc/reverse.html" :sig "-" :expr false}
 "J@|. (rotate)@-@4104" {:lang "J" :algo "|. (rotate)" :lib "-" :id 4104 :doc "https://code.jsoftware.com/wiki/Vocabulary/bardot#dyadic" :sig "-" :expr false}
 "Ruby@rotate@Array@4104" {:lang "Ruby" :algo "rotate" :lib "Array" :id 4104 :doc "https://apidock.com/ruby/v2_5_5/Array/rotate" :sig "-" :expr false}
 "Rust@rotate_left@slice@4104" {:lang "Rust" :algo "rotate_left" :lib "slice" :id 4104 :doc "https://doc.rust-lang.org/stable/std/primitive.slice.html#method.rotate_left" :sig "-" :expr false}
