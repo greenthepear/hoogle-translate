@@ -87,6 +87,7 @@
 "Python@range@-@8" {:lang "Python" :algo "range" :lib "-" :id 8 :doc "https://docs.python.org/3/library/functions.html#func-range" :sig "-" :expr false}
 "Racket@range@base@8" {:lang "Racket" :algo "range" :lib "base" :id 8 :doc "https://docs.racket-lang.org/reference/pairs.html?q=enumerate#%28def._%28%28lib._racket%2Flist..rkt%29._range%29%29" :sig "-" :expr false}
 "CUDA@sequence@Thrust@8" {:lang "CUDA" :algo "sequence" :lib "Thrust" :id 8 :doc "https://thrust.github.io/doc/group__transformations_ga233a3db0c5031023c8e9385acd4b9759.html" :sig "-" :expr false}
+"R@seq@-@8" {:lang "R" :algo "seq" :lib "-" :id 8 :doc "https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/seq" :sig "-" :expr false}
 "q@til@-@8" {:lang "q" :algo "til" :lib "-" :id 8 :doc "https://code.kx.com/q/ref/til/" :sig "-" :expr false}
 "Scala@until@Range@8" {:lang "Scala" :algo "until" :lib "Range" :id 8 :doc "https://scala-lang.org/api/current/scala/collection/immutable/Range.html" :sig "-" :expr false}
 "Uiua@⇡ (range)@-@8" {:lang "Uiua" :algo "⇡ (range)" :lib "-" :id 8 :doc "https://www.uiua.org/docs/range" :sig "-" :expr false}
