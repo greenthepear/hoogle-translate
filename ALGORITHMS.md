@@ -667,3 +667,4 @@
 |    OCaml    |            `min`             |   38   |           `-`           |       |                                                  [doc](https://ocaml.org/api/Stdlib.html#min)                                                  |
 | Common Lisp |            `min`             |   38   |           `-`           |       |                                                      [doc](https://novaspec.org/cl/f_max)                                                      |
 |    CUDA     |        `min_element`         |   38   |        `Thrust`         |       |                [doc](https://nvidia.github.io/cccl/thrust/api/function_group__extrema_1ga70a05eafeff24c0553adcbb51d8f052a.html)                |
+|    Ruby     |            `to_s`            |   16   |           `-`           |       |                                                   [doc](https://apidock.com/ruby/Object/to_s)                                                  |
