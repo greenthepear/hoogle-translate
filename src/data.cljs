@@ -669,4 +669,5 @@
 "OCaml@min@-@38" {:lang "OCaml" :algo "min" :lib "-" :id 38 :doc "https://ocaml.org/api/Stdlib.html#min" :sig "-" :expr false}
 "Common Lisp@min@-@38" {:lang "Common Lisp" :algo "min" :lib "-" :id 38 :doc "https://novaspec.org/cl/f_max" :sig "-" :expr false}
 "CUDA@min_element@Thrust@38" {:lang "CUDA" :algo "min_element" :lib "Thrust" :id 38 :doc "https://nvidia.github.io/cccl/thrust/api/function_group__extrema_1ga70a05eafeff24c0553adcbb51d8f052a.html" :sig "-" :expr false}
+"Ruby@to_s@-@16" {:lang "Ruby" :algo "to_s" :lib "-" :id 16 :doc "https://apidock.com/ruby/Object/to_s" :sig "-" :expr false}
 })
