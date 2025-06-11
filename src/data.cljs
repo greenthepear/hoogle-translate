@@ -670,4 +670,8 @@
 "Common Lisp@min@-@38" {:lang "Common Lisp" :algo "min" :lib "-" :id 38 :doc "https://novaspec.org/cl/f_max" :sig "-" :expr false}
 "CUDA@min_element@Thrust@38" {:lang "CUDA" :algo "min_element" :lib "Thrust" :id 38 :doc "https://nvidia.github.io/cccl/thrust/api/function_group__extrema_1ga70a05eafeff24c0553adcbb51d8f052a.html" :sig "-" :expr false}
 "Ruby@to_s@-@16" {:lang "Ruby" :algo "to_s" :lib "-" :id 16 :doc "https://apidock.com/ruby/Object/to_s" :sig "-" :expr false}
+"BQN@⍒ (grade down)@-@39" {:lang "BQN" :algo "⍒ (grade down)" :lib "-" :id 39 :doc "https://mlochbaum.github.io/BQN/help/gradedown_binsdown.html#-%F0%9D%95%A9-grade-down" :sig "-" :expr false}
+"BQN@⍋ (grade up)@-@40" {:lang "BQN" :algo "⍋ (grade up)" :lib "-" :id 40 :doc "https://mlochbaum.github.io/BQN/help/gradeup_binsup.html#-%F0%9D%95%A9-grade-up" :sig "-" :expr false}
+"APL@⍋ (grade up)@-@40" {:lang "APL" :algo "⍋ (grade up)" :lib "-" :id 40 :doc "https://microapl.com/apl_help/ch_020_020_630.htm" :sig "-" :expr false}
+"APL@⍒ (grade down)@-@39" {:lang "APL" :algo "⍒ (grade down)" :lib "-" :id 39 :doc "https://microapl.com/apl_help/ch_020_020_640.htm" :sig "-" :expr false}
 })
